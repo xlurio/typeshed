@@ -1,5 +1,6 @@
 from _typeshed import Incomplete
 from collections.abc import Generator
+from logging import Logger
 
 from scrapy import Spider as Spider, signals as signals
 from scrapy.statscollectors import StatsCollector
@@ -23,7 +24,7 @@ from scrapy.utils.ossignal import install_shutdown_handlers as install_shutdown_
 from scrapy.utils.reactor import install_reactor as install_reactor, verify_installed_reactor as verify_installed_reactor
 from twisted.internet.defer import Deferred
 
-logger: Incomplete
+logger: Logger
 
 class Crawler:
     spidercls: type
