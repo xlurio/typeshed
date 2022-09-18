@@ -1,0 +1,26 @@
+from _typeshed import Incomplete
+
+from scrapy.http import Response as Response
+from scrapy.utils.misc import load_object as load_object
+from scrapy.utils.python import binary_is_text as binary_is_text, to_bytes as to_bytes, to_unicode as to_unicode
+
+class ResponseTypes:
+    CLASSES: Incomplete
+    classes: Incomplete
+    mimetypes: Incomplete
+    def __init__(self) -> None: ...
+    def from_mimetype(self, mimetype): ...
+    def from_content_type(self, content_type, content_encoding: Incomplete | None = ...): ...
+    def from_content_disposition(self, content_disposition): ...
+    def from_headers(self, headers): ...
+    def from_filename(self, filename): ...
+    def from_body(self, body): ...
+    def from_args(
+        self,
+        headers: Incomplete | None = ...,
+        url: Incomplete | None = ...,
+        filename: Incomplete | None = ...,
+        body: Incomplete | None = ...,
+    ): ...
+
+responsetypes: Incomplete

@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+from collections.abc import Generator
+
+class Sitemap:
+    type: Incomplete
+    def __init__(self, xmltext) -> None: ...
+    def __iter__(self): ...
+
+def sitemap_urls_from_robots(robots_text, base_url: Incomplete | None = ...) -> Generator[Incomplete, None, None]: ...

@@ -1,0 +1,2 @@
+from scrapy.exceptions import ScrapyDeprecationWarning as ScrapyDeprecationWarning
+from scrapy.utils.asyncgen import collect_asyncgen as collect_asyncgen

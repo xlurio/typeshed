@@ -1,0 +1,15 @@
+from _typeshed import Incomplete
+
+from scrapy.utils.deprecate import create_deprecated_class as create_deprecated_class
+from scrapy.utils.request import request_from_dict as request_from_dict
+
+PickleFifoDiskQueue: Incomplete
+PickleLifoDiskQueue: Incomplete
+MarshalFifoDiskQueue: Incomplete
+MarshalLifoDiskQueue: Incomplete
+FifoMemoryQueue: Incomplete
+LifoMemoryQueue: Incomplete
+PickleFifoDiskQueueNonRequest: Incomplete
+PickleLifoDiskQueueNonRequest: Incomplete
+MarshalFifoDiskQueueNonRequest: Incomplete
+MarshalLifoDiskQueueNonRequest: Incomplete

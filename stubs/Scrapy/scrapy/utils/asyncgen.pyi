@@ -1,0 +1,3 @@
+from collections.abc import AsyncIterable
+
+async def collect_asyncgen(result: AsyncIterable): ...

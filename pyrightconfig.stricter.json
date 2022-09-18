@@ -79,6 +79,7 @@
         "stubs/PyYAML",
         "stubs/redis",
         "stubs/requests",
+        "stubs/Scrapy",
         "stubs/Send2Trash",
         "stubs/setuptools",
         "stubs/simplejson",
